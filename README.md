@@ -1,29 +1,35 @@
 # Kitbaze
 
-Recreation of the [Kitbaze](https://kitbaze.com) sports marketplace landing page.
+Full multi-page recreation of the Kitbaze sports marketplace.
 
-A modern, responsive single-page site for a sports gear marketplace built for athletes, collectors, and sports communities.
+**Live (after enabling GitHub Pages):**  
+https://amytruong001.github.io/Kitbaze/
 
-## Features
+## Pages
 
-- Hero section with call-to-action
-- Animated category marquee
-- Story / about section
-- How it works (4-step playbook)
-- Why Kitbaze feature grid
-- Athlete testimonials
-- Become a seller CTA
-- Early-access email signup
-- Full footer
+| Page | File | Description |
+|------|------|-------------|
+| Home | `index.html` | Landing page with hero, how it works, features, testimonials, CTA |
+| About | `about.html` | Mission, vision, purpose |
+| How It Works | `how-it-works.html` | Detailed journey steps |
+| Sell Gear | `seller.html` | Seller onboarding & benefits |
+| Marketplace | `marketplace.html` | Product grid with category filters |
 
 ## Tech
 
-Pure HTML + CSS (no frameworks). Uses Google Fonts (Inter + Space Grotesk).
+- Pure HTML + CSS (no frameworks)
+- Shared `styles.css`
+- Google Fonts: Inter + Space Grotesk
+- Fully responsive
 
-## Preview
+## Local preview
 
-Open `index.html` in any modern browser.
+Open any `.html` file in a browser, or serve the folder:
 
-## Live site (original)
+```bash
+npx serve .
+```
+
+## Original site
 
 https://kitbaze.com
